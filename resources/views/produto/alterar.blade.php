@@ -15,7 +15,7 @@
         <input type="hidden" name="_token" value="{{{ csrf_token() }}}">
         <div class="form-group">
             <label for="id">ID: <span class="text-danger">*</span></label>
-            <input type="text" id="id" name="id" class="form-control" autofocus required readonly value="{{ $produto->id }}">
+            <input type="text" id="id" name="id" class="form-control" required readonly value="{{ $produto->id }}">
         </div>
         <div class="form-group">
             <label for="descricao">Descrição: <span class="text-danger">*</span></label>
